@@ -13,17 +13,18 @@ Hotovo, otestováno naživo a nasazeno:
 - `api_football_fetch.py` — kód/mapování polí funkční (ověřeno na starší sezóně), ale **free tier API-Football nepodporuje aktuální sezónu 2026** (jen 2022–2024) → v praxi se vždy použije scraper fallback, dokud by nebyl placený plán.
 - `.github/workflows/update-calendar.yml` — cron 2x týdně (po, čt) + ruční spuštění, nasazeno a odzkoušeno.
 
-## Známé mezery
+## Odběr kalendáře
 
-- **Jaro 2027 (od cca 20. kola dál)** zatím v kalendáři není — sparta.cz ho na stránce kalendáře dotahuje přes tlačítko "Načíst další", které je čistě klientská komponenta (ne veřejné REST API), takže se to nedá získat prostým HTTP requestem. Vyžadovalo by to skutečný prohlížeč (Playwright/Selenium).
+URL: **`https://mrdigitai.github.io/acs-kalendar/sparta.ics`**
+Jedno-klik verze (webcal): **`webcal://mrdigitai.github.io/acs-kalendar/sparta.ics`**
 
-## Jak si lidé kalendář přidají
+- **Google Calendar (Android/web):** Nastavení → Přidat kalendář → Z adresy URL → vlož URL výše
+- **Apple Calendar (iOS/macOS):** Nastavení → Kalendář → Účty → Přidat účet → Jiný → Přidat odebíraný kalendář → vlož URL (nebo klepni na `webcal://` odkaz pro rovnou přidání)
 
-- **Google Calendar (Android/web):** Nastavení → Přidat kalendář → Z adresy URL → vlož `https://.../sparta.ics`
-- **Apple Calendar (iOS):** Nastavení → Kalendář → Účty → Přidat účet → Jiný → Přidat odebíraný kalendář → vlož URL (nebo `webcal://` verze pro jedno klepnutí)
+## Známá omezení
 
-## Známá omezení (řekni si o ně, než to půjde ven veřejně)
-
+- **Jaro 2027 (od cca 20. kola dál)** zatím v kalendáři není — sparta.cz ho na stránce kalendáře dotahuje přes tlačítko "Načíst další", které je čistě klientská komponenta (ne veřejné REST API), takže se to nedá získat prostým HTTP requestem. Vyžadovalo by to skutečný prohlížeč (Playwright/Selenium). Kalendář se ale sám doplní, jakmile to půjde získat a scraper se na to doladí.
 - **Přesný čas výkopu** bývá zveřejněný klubem jen pár týdnů dopředu (TV rozpis). Do té doby kalendář ukáže celodenní placeholder s `[čas upřesní klub]` — to je fér chování, ne bug.
-- **Scraping sparta.cz** (fallback) je reverse-engineering cizích dat bez JS renderu — křehké, může se rozbít při redesignu webu. API-Football je proto primární zdroj.
-- **Transparentnost:** v popisu každé události je poznámka "neoficiální fanouškovský kalendář, data z veřejně dostupných zdrojů" — doporučuju stejnou formulaci použít i v postu na sítě.
+- **Scraping sparta.cz** (fallback, aktuálně jediný fungující zdroj) je reverse-engineering cizích dat — křehké, může se rozbít při redesignu webu.
+- **API-Football** (kód hotový) na free tieru nepokrývá aktuální sezónu 2026 — potřeboval by placený plán, aby se stal reálně primárním zdrojem.
+- **Transparentnost:** v popisu každé události je poznámka "neoficiální fanouškovský kalendář, data z veřejně dostupných zdrojů".
