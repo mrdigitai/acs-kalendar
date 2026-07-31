@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+demo_test.ics
+x.ics
+.claude/settings.local.json
+*.png
