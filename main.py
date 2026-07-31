@@ -36,9 +36,8 @@ def get_fixtures() -> list[dict]:
         print("[main] API_FOOTBALL_KEY / SPARTA_TEAM_ID nenastaveno, jdu rovnou na fallback.")
 
     try:
-        from scraper_sparta import fetch_calendar_html, parse_fixtures
-        html = fetch_calendar_html()
-        fixtures = parse_fixtures(html)
+        from scraper_sparta import scrape_fixtures
+        fixtures = scrape_fixtures()
         print(f"[main] scraper_sparta (fallback): {len(fixtures)} zápasů.")
         return fixtures
     except Exception:
