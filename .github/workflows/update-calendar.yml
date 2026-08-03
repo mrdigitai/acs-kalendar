@@ -2,9 +2,9 @@ name: Update Sparta ICS calendar
 
 on:
   schedule:
-    # Pondeli a ctvrtek 6:00 UTC (~8:00 CEST). Uprav si dle chuti -- je to zdarma
-    # i pri castejsim behu, GitHub Actions ma 2000 min/mesic zdarma na osobni ucet.
-    - cron: "0 6 * * 1,4"
+    # Denne 6:00 UTC (~8:00 CEST). Zdarma i pri dennim behu -- kazdy run trva
+    # pár desítek sekund, GitHub Actions ma 2000 min/mesic zdarma na osobni ucet.
+    - cron: "0 6 * * *"
   workflow_dispatch: {}  # rucni spusteni z GitHub UI, hodi se na testovani
 
 permissions:
