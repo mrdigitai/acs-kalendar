@@ -8,24 +8,10 @@ REFRESH-INTERVAL;VALUE=DURATION:P3D
 X-PUBLISHED-TTL:P3D
 X-WR-TIMEZONE:Europe/Prague
 BEGIN:VEVENT
-SUMMARY:AC Sparta Praha – FK Teplice (Chance LIGA\, 4. kolo)
-DTSTART:20260815T150000Z
-DTEND:20260815T170000Z
-DTSTAMP:20260815T063842Z
-UID:acs-5727@mrdigit.ai
-SEQUENCE:0
-DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5727-ac-sparta-prah
- a-fk-teplice\n\nNeoficiální fanouškovský kalendář (mr_digit_ai) — 
- data z veřejně dostupných zdrojů.
-LOCATION:epet ARENA
-STATUS:CONFIRMED
-URL:https://sparta.cz/cs/zapas/5727-ac-sparta-praha-fk-teplice
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SK Artis Brno – AC Sparta Praha (Chance LIGA\, 5. kolo)
 DTSTART:20260822T150000Z
 DTEND:20260822T170000Z
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5728@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5728-ac-sparta-prah
@@ -39,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:AC Sparta Praha – SK Slavia Praha (Chance LIGA\, 6. kolo)
 DTSTART:20260830T180000Z
 DTEND:20260830T200000Z
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5729@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5729-ac-sparta-prah
@@ -53,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:FC Hradec Králové – AC Sparta Praha (Chance LIGA\, 7. kolo)
 DTSTART:20260906T160000Z
 DTEND:20260906T180000Z
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5731@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5731-ac-sparta-prah
@@ -68,7 +54,7 @@ SUMMARY:AC Sparta Praha – FK Jablonec (Chance LIGA\, 8. kolo) [čas upř
  esní klub]
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5733@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5733-ac-sparta-prah
@@ -83,7 +69,7 @@ SUMMARY:SK Sigma Olomouc – AC Sparta Praha (Chance LIGA\, 9. kolo) [čas
   upřesní klub]
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5735@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5735-ac-sparta-prah
@@ -98,7 +84,7 @@ SUMMARY:AC Sparta Praha – FK Pardubice (Chance LIGA\, 10. kolo) [čas up
  řesní klub]
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5737@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5737-ac-sparta-prah
@@ -113,7 +99,7 @@ SUMMARY:FC Baník Ostrava – AC Sparta Praha (Chance LIGA\, 11. kolo) [č
  as upřesní klub]
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5739@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5739-ac-sparta-prah
@@ -128,7 +114,7 @@ SUMMARY:AC Sparta Praha – 1.FC Slovácko (Chance LIGA\, 12. kolo) [čas
  upřesní klub]
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5741@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5741-ac-sparta-prah
@@ -143,7 +129,7 @@ SUMMARY:Bohemians Praha 1905 – AC Sparta Praha (Chance LIGA\, 13. kolo)
  [čas upřesní klub]
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5743@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5743-ac-sparta-prah
@@ -158,7 +144,7 @@ SUMMARY:FC Viktoria Plzeň – AC Sparta Praha (Chance LIGA\, 14. kolo) [
  čas upřesní klub]
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5745@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5745-ac-sparta-prah
@@ -173,7 +159,7 @@ SUMMARY:AC Sparta Praha – FC Slovan Liberec (Chance LIGA\, 15. kolo) [č
  as upřesní klub]
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5747@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5747-ac-sparta-prah
@@ -188,7 +174,7 @@ SUMMARY:FC Zlín – AC Sparta Praha (Chance LIGA\, 16. kolo) [čas upřes
  ní klub]
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5749@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5749-ac-sparta-prah
@@ -203,7 +189,7 @@ SUMMARY:AC Sparta Praha – FK Mladá Boleslav (Chance LIGA\, 17. kolo) [
  čas upřesní klub]
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5751@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5751-ac-sparta-prah
@@ -218,7 +204,7 @@ SUMMARY:FK Teplice – AC Sparta Praha (Chance LIGA\, 18. kolo) [čas upř
  esní klub]
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5753@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5753-ac-sparta-prah
@@ -233,7 +219,7 @@ SUMMARY:AC Sparta Praha – SK Artis Brno (Chance LIGA\, 19. kolo) [čas u
  přesní klub]
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5752@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5752-ac-sparta-prah
@@ -248,7 +234,7 @@ SUMMARY:SK Slavia Praha – AC Sparta Praha (Chance LIGA\, 20. kolo) [čas
   upřesní klub]
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5750@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5750-ac-sparta-prah
@@ -263,7 +249,7 @@ SUMMARY:AC Sparta Praha – FC Hradec Králové (Chance LIGA\, 21. kolo) [
  čas upřesní klub]
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5748@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5748-ac-sparta-prah
@@ -278,7 +264,7 @@ SUMMARY:FK Jablonec – AC Sparta Praha (Chance LIGA\, 22. kolo) [čas up
  řesní klub]
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5746@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5746-ac-sparta-prah
@@ -293,7 +279,7 @@ SUMMARY:AC Sparta Praha – SK Sigma Olomouc (Chance LIGA\, 23. kolo) [ča
  s upřesní klub]
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5744@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5744-ac-sparta-prah
@@ -308,7 +294,7 @@ SUMMARY:FK Pardubice – AC Sparta Praha (Chance LIGA\, 24. kolo) [čas up
  řesní klub]
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5742@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5742-ac-sparta-prah
@@ -323,7 +309,7 @@ SUMMARY:AC Sparta Praha – FC Baník Ostrava (Chance LIGA\, 25. kolo) [č
  as upřesní klub]
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5740@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5740-ac-sparta-prah
@@ -338,7 +324,7 @@ SUMMARY:1.FC Slovácko – AC Sparta Praha (Chance LIGA\, 26. kolo) [čas
  upřesní klub]
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5738@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5738-ac-sparta-prah
@@ -353,7 +339,7 @@ SUMMARY:AC Sparta Praha – Bohemians Praha 1905 (Chance LIGA\, 27. kolo)
  [čas upřesní klub]
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5736@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5736-ac-sparta-prah
@@ -368,7 +354,7 @@ SUMMARY:AC Sparta Praha – FC Viktoria Plzeň (Chance LIGA\, 28. kolo) [
  čas upřesní klub]
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5734@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5734-ac-sparta-prah
@@ -383,7 +369,7 @@ SUMMARY:FC Slovan Liberec – AC Sparta Praha (Chance LIGA\, 29. kolo) [č
  as upřesní klub]
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5732@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5732-ac-sparta-prah
@@ -398,7 +384,7 @@ SUMMARY:AC Sparta Praha – FC Zbrojovka Brno (Chance LIGA\, 30. kolo) [č
  as upřesní klub]
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
-DTSTAMP:20260815T063842Z
+DTSTAMP:20260816T064018Z
 UID:acs-5730@mrdigit.ai
 SEQUENCE:0
 DESCRIPTION:Detail zápasu: https://sparta.cz/cs/zapas/5730-ac-sparta-prah
