@@ -4,3 +4,9 @@ demo_test.ics
 x.ics
 .claude/settings.local.json
 *.png
+
+# Doplněno 2026-10-07 (audit bezpečnosti)
+.env
+.env.*
+node_modules/
+.vercel/
