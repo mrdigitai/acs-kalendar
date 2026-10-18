@@ -75,7 +75,7 @@ PRAGUE_TZ = ZoneInfo("Europe/Prague")
 
 # Next.js Server Action za tlačítkem "Načíst další" -- viz docstring. Interní
 # team/season ID sparta.cz (ne API-Football ID) pro Muži A, sezónu 2026/2027.
-FIXTURES_ACTION_ID = "ce004dba8924b88fd0c1c83b01ae34719144b7b5"
+FIXTURES_ACTION_ID = "60aebc1efded3e0f69858e16bbf4403969af39d221"  # aktualizováno 2026-10-18 po redeployi sparta.cz (staré ce004dba… vracelo 400)
 FIXTURES_TEAM_ID = 1
 FIXTURES_SEASON_ID = 34
 FIXTURES_LIMIT = 60  # pohodlná rezerva nad 31 zápasy zbytku sezóny 2026/2027
